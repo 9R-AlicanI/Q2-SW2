@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Q2 Drill 2</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap 5 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="javascript:void(0)">
+        <img src="https://storage.googleapis.com/oa_disk001/obgreenhills/65/documents/1768434887-159.png" alt="Logo" width="50px">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="enroll.html">Enroll</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <button class="btn btn-primary" type="button">Get Started</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hero-image position-relative">
+    <img src="https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/9804865a-f6de-47d0-b463-c569491b9621/OBMC+MONTESSORI+FV+1+-+AY+2026+FA.jpg" alt="Hero image" class="img-fluid w-100">
+
+    <div class="hero-text container py-4">
+      <!-- Top Heading -->
+      <div class="text-center mb-4">
+        <h1 class="fw-bold">Get in Touch</h1>
+        <p class="text-muted mb-0">We'd love to hear from you! Send us a message using the form below.</p>
+      </div>
+
+      <!-- Two-Column Row: Form (Left) + Contact Info (Right) -->
+      <div class="row g-4 align-items-start">
+        <!-- Left Column: Form -->
+        <div class="col-lg-7">
+          <div class="bg-light rounded text-dark p-4 p-md-5 shadow-sm">
+            <h2 class="text-primary fw-bold mb-3">Send Us a Message</h2>
+
+            <form>
+              <div class="row g-2 mb-3">
+                <div class="col-sm-6">
+                  <input type="text" class="form-control" id="firstname" placeholder="First Name *" name="firstname" required>
+                </div>
+                <div class="col-sm-6">
+                  <input type="text" class="form-control" id="lastname" placeholder="Last Name *" name="lastname" required>
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <input type="email" class="form-control" id="email" placeholder="Email Address *" name="email" required>
+              </div>
+
+              <div class="mb-3">
+                <select class="form-select" id="subject" name="subject" required>
+                  <option value="" selected disabled>Subject Dropdown...</option>
+                  <option value="admissions">Admissions</option>
+                  <option value="tuition">Tuition & Fees</option>
+                  <option value="general">General Inquiry</option>
+                </select>
+              </div>
+
+              <div class="mb-3">
+                <textarea class="form-control" id="message" rows="4" placeholder="Your message here..." name="message" required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary w-100 py-2">Send Message</button>
+            </form>
+          </div>
+        </div>
+
+        <!-- Right Column: Contact Info -->
+        <div class="col-lg-5">
+          <div class="bg-white rounded text-dark shadow-sm overflow-hidden">
+            <div class="bg-primary text-white p-3 px-4">
+              <h4 class="mb-0 fw-bold">Contact Info</h4>
+            </div>
+            <div class="p-4">
+              <p class="fw-bold mb-1">Office Address:</p>
+              <p class="text-muted small mb-3">3 Eisenhower St., Bgy. Greenhills, San Juan City, Metro Manila, Philippines</p>
+
+              <p class="fw-bold mb-1">Phone:</p>
+              <p class="text-muted small mb-3">+63 2 8722 9720 to 26</p>
+
+              <p class="fw-bold mb-1">Email:</p>
+              <p class="text-muted small mb-3">info@obmontessori.edu.ph</p>
+
+              <p class="fw-bold mb-1">Working Hours:</p>
+              <p class="text-muted small mb-0">Mon - Fri: 8:00 AM - 4:00 PM</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="text-center bg-dark text-light py-3">©Iosef Sebastian V. Alican</footer>
+
+</body>
+</html>
